@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  django:
+    container_name: mondis-django
+    restart: always
+    build: ./django
+    ports:
+      - "8011:8000"
+    volumes:
+      - ../mondis:/usr/src/mondis/mondis
+      - ./django:/usr/src/run
+    environment:
+      - DEBUG='true'
+      - PYTHONUNBUFFERED='true'
+    command: bash /usr/src/run/run.sh
