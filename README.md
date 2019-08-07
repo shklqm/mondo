@@ -4,7 +4,7 @@ Docker engine and docker-compose is required to run this properly. I'm assuming 
 machine.
 
 
-Inside the `mondo` directory run the docker-compose up command
+Inside the `docker_mondis` directory run the docker-compose up command
 
     docker-compose up --build -d
 
