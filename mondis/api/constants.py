@@ -1,0 +1,15 @@
+CANDIDATE_PERSON = 1
+INTERVIEWER_PERSON = 2
+PERSON_CHOICES = [(CANDIDATE_PERSON, 'Candidate'), (INTERVIEWER_PERSON, 'Interviewer')]
+
+HOUR_LIST = [9, 10, 11, 12, 13, 14, 15, 16]
+HOUR_CHOICES = [
+    (HOUR_LIST[0], '09:00 AM'),
+    (HOUR_LIST[1], '10:00 AM'),
+    (HOUR_LIST[2], '11:00 AM'),
+    (HOUR_LIST[3], '12:00 PM'),
+    (HOUR_LIST[4], '13:00 PM'),
+    (HOUR_LIST[5], '14:00 PM'),
+    (HOUR_LIST[6], '15:00 PM'),
+    (HOUR_LIST[7], '16:00 PM'),
+]
